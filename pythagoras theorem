@@ -1,0 +1,10 @@
+#write your codes here
+def pythagoras(a, b):
+    c =  (a**2 + b**2)**0.5#**0.5 is same as square root, formula for pythagoras
+    return c #/ print c
+
+#calling/using the function
+cc= pythagoras(3,4)# a variable with sides of triangle of 3 and 4
+print("c length is: " + str(cc))#print it
+ccc= pythagoras(12,22)#a variable with sides of triangle of 12 and 22
+print("c length is: " + str(ccc))#print it
